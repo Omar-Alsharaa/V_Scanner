@@ -1,0 +1,22 @@
+{
+    "version": "1.0.0",
+    "release_date": "2025-08-06",
+    "codename": "Sentinel",
+    "description": "Initial release of Advanced Virus Scanner & Cleaner",
+    "features": [
+        "Multi-method threat detection",
+        "System-critical file protection",
+        "Comprehensive logging system",
+        "Modern GUI with progress tracking",
+        "Automatic backup before deletion",
+        "Customizable scan options"
+    ],
+    "requirements": {
+        "python": ">=3.6",
+        "os": "Windows",
+        "memory": "512MB RAM minimum"
+    },
+    "author": "Omar Alsharaa",
+    "license": "MIT",
+    "repository": "https://github.com/Omar-Alsharaa/V_Scanner"
+}
