@@ -1,0 +1,56 @@
+{
+    "virus_signatures": {
+        "version": "1.0",
+        "last_updated": "2025-08-06",
+        "hashes": {
+            "d41d8cd98f00b204e9800998ecf8427e": "Generic.Trojan.Empty",
+            "5d41402abc4b2a76b9719d911017c592": "Adware.Generic.Hello",
+            "098f6bcd4621d373cade4e832627b4f6": "Malware.Test.Sample",
+            "e3b0c44298fc1c149afbf4c8996fb924": "PUA.Generic.Blank"
+        },
+        "suspicious_extensions": [
+            ".scr", ".pif", ".com", ".bat", ".cmd", ".vbs", ".js", ".jar", ".wsf", ".wsh"
+        ],
+        "dangerous_patterns": [
+            ".*\\.exe\\.exe$",
+            ".*\\.pdf\\.exe$",
+            ".*\\.doc\\.exe$",
+            ".*\\.jpg\\.exe$",
+            ".*\\.txt\\.exe$",
+            ".*\\.zip\\.exe$"
+        ],
+        "malicious_strings": [
+            "eval(base64_decode",
+            "CreateObject(\"WScript.Shell\")",
+            "powershell -enc",
+            "cmd.exe /c",
+            "regsvr32 /s",
+            "rundll32.exe",
+            "net user administrator",
+            "reg add HKLM",
+            "schtasks /create",
+            "attrib +h +s",
+            "icacls",
+            "takeown /f"
+        ],
+        "registry_indicators": [
+            "HKLM\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run",
+            "HKCU\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run",
+            "HKLM\\\\System\\\\CurrentControlSet\\\\Services"
+        ]
+    },
+    "whitelist": {
+        "trusted_publishers": [
+            "Microsoft Corporation",
+            "Adobe Systems Incorporated",
+            "Google Inc",
+            "Mozilla Corporation"
+        ],
+        "safe_directories": [
+            "C:\\\\Program Files\\\\",
+            "C:\\\\Program Files (x86)\\\\",
+            "C:\\\\Windows\\\\System32\\\\",
+            "C:\\\\Windows\\\\SysWOW64\\\\"
+        ]
+    }
+}

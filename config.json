@@ -1,0 +1,18 @@
+{
+    "scan_settings": {
+        "max_file_size_mb": 100,
+        "skip_system_files": true,
+        "scan_archives": false,
+        "quarantine_folder": "quarantine"
+    },
+    "detection_settings": {
+        "enable_heuristics": true,
+        "sensitivity_level": "medium",
+        "scan_memory": false
+    },
+    "interface_settings": {
+        "theme": "default",
+        "auto_update_signatures": true,
+        "show_detailed_logs": false
+    }
+}
