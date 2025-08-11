@@ -2,11 +2,6 @@
 
 A comprehensive virus scanning and cleaning tool designed to protect your system while ensuring critical files remain safe.
 
-## Screenshots
-
-![Main Interface](https://via.placeholder.com/600x400/2196F3/FFFFFF?text=Main+Scanner+Interface)
-![Scan Results](https://via.placeholder.com/600x400/4CAF50/FFFFFF?text=Scan+Results+View)
-
 ## Features
 
 - Quick, full system, and custom folder scanning
